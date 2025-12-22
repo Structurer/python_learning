@@ -16,7 +16,7 @@
 - **核心语法**：`if-elif-else`条件判断、`for`遍历/`while`循环（配`break`/`continue`）、`class`定义类（含`__init__`初始化）及继承特性。  
 - **标准库基础**：`os`（路径操作）、`datetime`（时间处理）、`json`（数据序列化）等，`import`后使用。
 
-### 三、第三方库与应用领域    
+### 三、第三方库与应用    
 - **第三方库生态**：  
   - 数据分析：`pandas`（数据处理）、`numpy`（数值计算）、`matplotlib`（可视化）；  
   - Web开发：`Django`（全栈框架）、`Flask`（轻量框架）；  
