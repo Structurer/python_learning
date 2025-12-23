@@ -14,7 +14,7 @@ def calculator_precise(expression):
         expr = expression
         # 匹配数字（整数、小数、负数）并替换为Decimal(数字)
         import re
-        expr = re.sub(r'(\d+\.?\d*|-?\d+\.?\d*)', r'Decimal("\1")', expr)
+        expr = re.sub(r'(-?\d+\.?\d*)', r'Decimal("\1")', expr)
         # 执行转换后的表达式
         result = eval(expr)
         return f"{expression} = {result}"
