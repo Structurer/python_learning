@@ -143,13 +143,13 @@ def py7zr_recursive_single_file_encrypt(
 # ========== 主程序配置区域（三目录与脚本同级） ==========
 if __name__ == "__main__":
     # 三个同级目录名称（与py脚本放在同一文件夹下）
-    SOURCE_DIR = r"E:\processed_videos"          # 待加密文件存放目录
-    ENCRYPT_OUTPUT_DIR = r"E:\encryted"  # 加密包输出目录
+    SOURCE_DIR = r"E:\无耻之徒字幕重置\无耻之徒S02.Shameless.US.2012.1080p.Blu-ray.x265.AC3￡cXcY@FRDS"          # 待加密文件存放目录
+    ENCRYPT_OUTPUT_DIR = r"E:\encryted\无耻之徒S02.Shameless.US.2012.1080p.Blu-ray.x265.AC3￡cXcY@FRDS"  # 加密包输出目录
     CHECK_TEMP_DIR = r"E:\checktemp"   # 校验临时解压目录
 
     PASSWORD = "secp256k1"                           # 测试用加密密码
     ENCRYPT_FILENAME = True                   # 文件名加密开关（False=关闭）
-    ENABLE_HASH_CHECK = True                  # 哈希校验开关（False=关闭）
+    ENABLE_HASH_CHECK = False                  # 哈希校验开关（False=关闭）
 
     # 调用加密函数
     py7zr_recursive_single_file_encrypt(
