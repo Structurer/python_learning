@@ -91,6 +91,6 @@ def compare_two_dirs_hash(
 
 # 主程序（测试用）
 if __name__ == "__main__":
-    DIR1 = r"E:\无耻之徒字幕重置\无耻之徒S02.Shameless.US.2012.1080p.Blu-ray.x265.AC3￡cXcY@FRDS"
+    DIR1 = r"E:\无耻之徒字幕重置"
     DIR2 = r"E:\decrypted"
     compare_two_dirs_hash(DIR1, DIR2)
