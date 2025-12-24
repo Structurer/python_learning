@@ -11,10 +11,10 @@ SEND_SMTP_SERVER = "smtp.163.com"   # 163固定不变，不用改
 SEND_SMTP_PWD = "BPtZs8ggaD7LehSs"  # 只需要填你163邮箱获取的16位SMTP授权码，填这里就行
 
 # 2. CF收件中转触发邮箱（已完整填好你的邮箱）
-CF_TRIGGER_EMAIL = "dingo00000@ceshi.autos"  # 你的CF中转触发邮箱，直接用
+CF_TRIGGER_EMAIL = "dingo12345@ceshi.autos"  # 你的CF中转触发邮箱，直接用
 
 # 3. 核心发送规则（秒级间隔，直接调数字就行）
-TOTAL_SEND_TIMES = 6  # 总发送次数，想改直接调数字（推荐10-30封）
+TOTAL_SEND_TIMES = 10  # 总发送次数，想改直接调数字（推荐10-30封）
 SEND_INTERVAL_SEC = 10  # 间隔秒数，默认60秒=1分钟，调数字就改间隔，简单直接
 # ===============================================================================
 
